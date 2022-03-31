@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+    height: 100vh;
+}
+
+.App-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: .6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 10;
+    background-color: #fff;
+}
+
+.hamburger {
+    font-size: 1.5rem;
+}
+
+.title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    width: 60%;
+    text-align: center;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    font-size: 1.5rem;
+}
+
+.carousel {
+    margin-top: 8vh;
+    overflow-x: hidden;
+    background-color: rgb(255, 218, 224);
+}
+
+.inner-carousel {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.carousel-img {
+    height: 30vh;
+}
+
+.carousel-img img {
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+    padding: .5rem;
+    pointer-events: none;
+    border-radius: 1.5rem;
+}
+
+.gallery {
+    padding: 1rem;
+    background-color: peachpuff;
+    margin-bottom: 5rem;
+}
+
+.gallery-title {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.gallery-items {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.item {
+    margin-bottom: 1rem;
+}
+
+.item img {
+    width: 30vw;
+    height: 20vh;
+    object-fit: cover;
+}
+
+.item-name {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+    padding: .5rem;
+}
+
+.foot {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.foot p {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.items-list {
+    margin-top: 6vh;
+    padding: .6rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: pink;
+}
+
+.card {
+    width: 45vw;
+    height: 40vh;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.card img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+}
+
+.name,
+.price {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.btn-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* padding: 0.5rem; */
+}
+
+.add,
+.plus,
+.minus {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.3rem;
+    background-color: rgb(204, 204, 204);
+    border: 1px solid rgb(204, 204, 204);
+}
+
+.plus,
+.minus {
+    width: 2rem;
+    border-radius: 50%;
+}
+
+.nums {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.3rem;
+}
